@@ -1,43 +1,4 @@
 @mixin landing-page-background() {
-  background-color: $ui-01;
-  position: relative;
-  &::before {
-    content: '';
-    position: absolute;
-    left: -$spacing-06;
-    top: 0;
-    right: -$spacing-06;
-    bottom: 0;
-    background: $ui-01;
-  }
-  > * {
-    @mixin landing-page-background() {
-      background-color: $ui-01;
-      position: relative;
-      &::before {
-        content: '';
-        position: absolute;
-        left: -$spacing-06;
-        top: 0;
-        right: -$spacing-06;
-        bottom: 0;
-        background: $ui-01;
-      }
-      > * {
-        @mixin landing-page-background() {
-  background-color: $ui-01;
-  position: relative;
-  &::before {
-    content: '';
-    position: absolute;
-    left: -$spacing-06;
-    top: 0;
-    right: -$spacing-06;
-    bottom: 0;
-    background: $ui-01;
-  }
-  > * {
-    @mixin landing-page-background() {
     background-color: $ui-01;
     position: relative;
   
@@ -56,13 +17,3 @@
       position: relative;
     }
   }
-    position: relative;
-  }
-}
-
-        position: relative;
-      }
-    }
-    position: relative;
-  }
-}
